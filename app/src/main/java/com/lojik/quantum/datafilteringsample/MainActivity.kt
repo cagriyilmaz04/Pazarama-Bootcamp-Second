@@ -164,15 +164,13 @@ class MainActivity : ComponentActivity() {
                         onClick = { showDialog.value = true },
                         modifier = Modifier
                             .size(64.dp)
-                            .padding(16.dp)
-                            .background(Color.Blue) // Rengi değiştirebilirsiniz
                             .shadow(4.dp, CircleShape)
-                            .align(Alignment.CenterHorizontally) // FAB'ı ortalamak için Alignment.Center kullanın
+                            .align(Alignment.CenterHorizontally)
                     ) {
                         Icon(
                             imageVector = Icons.Default.Add,
                             contentDescription = "Ekle",
-                            tint = Color.White
+                            tint = Color.Blue
                         )
                     }
                 }
